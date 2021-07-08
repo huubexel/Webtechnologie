@@ -1,0 +1,62 @@
+/*level 1*/
+
+.most_important{
+    flex-grow: 6;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.less_important{
+    flex-grow: 3;
+    flex-direction: column;
+}
+
+/* level 2*/
+.short_important_top{
+    flex-grow: 2;
+    margin: 1%;
+}
+
+.long_important_row{
+    flex-grow: 1;
+}
+
+.short_less_important{
+/* uiterste */
+    flex-grow: 1;
+}
+
+.long_less_important{
+/* uiterste */
+    flex-grow: 1;
+}
+
+.weatherforecast{
+/* uiterste */
+    flex-grow: 1;
+    margin: 1% 10%;
+}
+
+/* level 3*/
+.short_important{
+/* uiterste */
+    flex-grow: 2;
+}
+
+.long_important{
+/* uiterste */
+    flex-grow: 1;
+}
+
+.foto{
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+}
+
+#hr_homepagina{
+    width: 98%;
+    border: 0.7px solid black;
+    border-radius: 3px;
+}

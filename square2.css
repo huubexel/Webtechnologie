@@ -1,0 +1,32 @@
+/*level 1*/
+.video_row{
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+}
+
+.unis_add{
+    width: 100%;
+}
+
+/*level 2 (ook meteen alle uitersten)*/
+.video{
+    flex-grow: 1;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.big_table{
+    flex-grow: 8;
+}
+
+
+.advertisement_long{
+    justify-content: center;
+}
+
+
+.advertisement_square{
+    flex-grow: 2;
+}
+

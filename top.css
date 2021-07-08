@@ -1,0 +1,76 @@
+/* wat zit er in top */
+header, footer {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav{
+    flex-grow: 3;
+    justify-content: space-around;
+}
+
+nav p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    flex: 1;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+/* speel een beetje met de grote box verhoudingen */
+nav a {
+    display: flex;
+    flex: 1;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 1%;
+    text-decoration: none;
+}
+
+
+nav ul {
+    flex: 1;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 1%;
+}
+
+address a:link{
+    color: black;
+    text-decoration: none;
+}
+
+address a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+address a:hover{
+    color: dimgrey;
+    text-decoration: none;
+}
+
+address a:active{
+    color:darkblue;
+    text-decoration: none;
+}
+
+.here{
+    color: white;
+    background-color: black;
+}
+
+.not-here{
+    color: black;
+}
